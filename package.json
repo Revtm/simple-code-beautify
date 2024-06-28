@@ -1,0 +1,30 @@
+{
+  "name": "simple-code-beautify",
+  "version": "1.0.0",
+  "description": "simple json beautifier and other tools for coding",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revtm/simple-code-beautify.git"
+  },
+  "keywords": [
+    "json",
+    "beautifier",
+    "beautify",
+    "code",
+    "tools",
+    "editor"
+  ],
+  "author": "Revtm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Revtm/simple-code-beautify/issues"
+  },
+  "homepage": "https://github.com/Revtm/simple-code-beautify#readme",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  }
+}
