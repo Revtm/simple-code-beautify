@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Simple Code Beautify</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 </head>
 <body>
@@ -15,19 +15,21 @@
 <!--    </div>-->
     <div class="row gx-2 mt-3">
         <div class="col col-6 p-1">
-           <div id="original-json" class="card-body border border-2 rounded w-100 p-2" contenteditable="true">
-               <span class="text-black-50">Put JSON here!</span>
+           <div>JSON:</div>
+           <div id="original-json" class="card-body border border-2 w-100 rounded p-2" contenteditable="true">
+
            </div>
         </div>
         <div class="col col-6 p-1">
-            <div id="beautified-json" class="card-body border border-2 rounded w-100 p-2" contenteditable="true">
-                <span class="text-black-50">Beautified JSON</span>
+            <div>Beautified JSON:</div>
+            <div id="beautified-json" class="card-body border border-2 w-100 rounded p-2" contenteditable="true">
+
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row mt-1">
         <div class="col">
-            <button class="btn btn-success w-100">Beautify!</button>
+            <button id="beautify-btn" class="btn btn-success w-100">Beautify!</button>
         </div>
     </div>
 </div>
