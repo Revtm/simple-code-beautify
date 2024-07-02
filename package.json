@@ -4,7 +4,7 @@
   "description": "simple json beautifier and other tools for coding",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electronmon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +27,8 @@
   "homepage": "https://github.com/Revtm/simple-code-beautify#readme",
   "devDependencies": {
     "electron": "^31.1.0"
+  },
+  "dependencies": {
+    "electronmon": "^2.0.3"
   }
 }

@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Simple Code Beautify</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 </head>
 <body>
-Title: <input id="title"/>
-<button id="btn" type="button">Set</button>
+<div class="container overflow-hidden">
+<!--    <div>-->
+<!--        Title: <input id="title"/>-->
+<!--        <button id="btn" type="button">Set</button>-->
+<!--    </div>-->
+    <div class="row gx-2 mt-3">
+        <div class="col col-6 p-1">
+           <div>JSON:</div>
+           <div id="original-json" class="card-body border border-2 w-100 rounded p-2" contenteditable="true">
+
+           </div>
+        </div>
+        <div class="col col-6 p-1">
+            <div>Beautified JSON:</div>
+            <div id="beautified-json" class="card-body border border-2 w-100 rounded p-2" contenteditable="true">
+
+            </div>
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col">
+            <button id="beautify-btn" class="btn btn-success w-100">Beautify!</button>
+        </div>
+    </div>
+</div>
+
+
 <script src="./renderer.js"></script>
+<script src="./bootstrap/js/jquery-3.7.1.min.js"></script>
+<script src="./bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
