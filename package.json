@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Revtm/simple-code-beautify.git"
+    "url": "git+https://github.com/Revtm/simple-json-beautify.git"
   },
   "keywords": [
     "json",
@@ -22,9 +22,9 @@
   "author": "Revtm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Revtm/simple-code-beautify/issues"
+    "url": "https://github.com/Revtm/simple-json-beautify/issues"
   },
-  "homepage": "https://github.com/Revtm/simple-code-beautify#readme",
+  "homepage": "https://github.com/Revtm/simple-json-beautify#readme",
   "devDependencies": {
     "electron": "^31.1.0"
   },
