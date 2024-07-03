@@ -1,5 +1,5 @@
 {
-  "name": "simple-code-beautify",
+  "name": "simple-json-beautify",
   "version": "1.0.0",
   "description": "simple json beautifier and other tools for coding",
   "main": "main.js",
